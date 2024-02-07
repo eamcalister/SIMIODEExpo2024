@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="first_order_examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Basic Examples</title>
+
+<p> The fundamental building block for all Insights is the integrator:</p>
+
+   <figure xml:id="integrator-insight">
+                    <caption>The Basic Integrator (click the ''full screen Insight'' button in the upper right to open this in a new window on Insightmaker).</caption>
+                    <interactive xml:id="interactive-integrator-insight" iframe="https://insightmaker.com/insight/7s5AkvRdpbCcSmfvl65uQD/embed?topBar=1;sideBar=1;zoom=1"/>
+    </figure> 
+
+<p>In this example one can modify the flow rate function and initial condition of the stock to obtain the antiderivaive of the given flow function with the given initial condition. </p>
+
+<p> 
+A key fact is that we can use any stock that is up- or downstream of a given flow in the formula for its flow rate. Moreover, we may link parameters, which may be manipulated with sliders, and run simulations numerically. For instance, we have the standard Malthusian growth model given below. 
+</p> 
+
+   <figure xml:id="Malthusian-insight">
+                    <caption>Malthusian growth model with variable growth rate.</caption>
+                    <interactive xml:id="interactive-Malthusian-insight" iframe="https://insightmaker.com/insight/2Yd7izSdPu4DhoalPCmI4g/embed?topBar=1;sideBar=1;zoom=1"/>
+    </figure>
+
+
+</section>

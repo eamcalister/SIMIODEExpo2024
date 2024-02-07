@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="Oscillators" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Oscillators</title>
+
+  <p>By the time students get to second-order equations, the process of turning second-order equations into systems of first-order equations is intuitive. General systems beyond those from second-order equations just require one more link in the diagram. Furthermore, Insightmaker supports the ability to switch between the two-dimensional phase portrait and time series graphs.</p>
+
+    <figure xml:id="Oscillators-figure">
+                    <caption>The basic forced harmonic oscillator.</caption>
+                    <interactive xml:id="interactive-Oscillators" iframe="https://insightmaker.com/insight/34DZg8rPU4e0I7aVGR59dm/embed?topBar=1;sideBar=1;zoom=1"/>
+    </figure>
+
+</section>

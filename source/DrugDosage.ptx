@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="DrugDosage" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Drug Dosage</title>
+
+  <p>This Insight is motivated by section 5.1 of  <xref ref="SIMIODE-text"/>. We use it to introduce the idea of dicontinuous inflows/forcing functions. Making the repeat specification in the Pulse function nonzero allows students to complete the modeling scenario <xref ref="multiple-doses"/></p>
+
+  <figure xml:id="dosage-insight">
+                    <caption>Drug Dosage</caption>
+                    <interactive xml:id="interactive-dosage-insight" iframe="https://insightmaker.com/insight/1unWpwfEHMd8utxVeTBmyd/embed?topBar=1;sideBar=1;zoom=1"/>
+                </figure>  
+
+
+</section>

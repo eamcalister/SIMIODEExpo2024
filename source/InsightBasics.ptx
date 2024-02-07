@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="InsightBasics" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Insight Basics</title>
+
+  <introduction>
+    <p> Here we briefly discuss what the components of a stock-flow model are and establish the basic correspondence between stock-flow models and systems of differential equations. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="stocks_flows.ptx" />
+  <xi:include href="first_order_ex.ptx" />
+
+</chapter>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="Hill-Keller" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Hill-Keller Sprint Model</title>
+
+  <p>In this section we review the Hill-Keller Sprint modeel, with estimation of the parameter <m>k</m>, to illustrate the basic workflow of ODE modeling from Section 1.1 of <xref ref="SIMIODE-text"/>. To proceed, open the Inisght in its own window and click ``Start Story''.</p>
+
+    <figure xml:id="Hill-Keller-figure">
+                    <caption>The Hill-Keller sprint model, with parameter estimation from the 2008 Olympic 100m dash.</caption>
+                    <interactive xml:id="interactive-Hill-Keller" iframe="https://insightmaker.com/insight/C1oeUgQgHcvJv6xMphswB/embed?topBar=1;sideBar=1;zoom=1"/>
+    </figure>
+
+</section>

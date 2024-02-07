@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ModelingExamples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Modeling Examples</title>
+
+  <introduction>
+    <p> Here we will discuss some further modeling examples and how one can use Insightmaker to increase student understanding of the underlying ODEs. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="Hill-Keller.ptx" />
+  <xi:include href="Oscillators.ptx" />
+  <xi:include href="DrugDosage.ptx" />
+
+</chapter>

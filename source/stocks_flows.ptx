@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="stocks_flows" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Stocks and Flows</title>
+  <p>Stock-flow models have the following components:
+    <ul>
+      <li><term>Stocks:</term> Stocks are things that accumulate. In the context of modeling with ODEs, these are the dependent variables of the system. Within Insightmaker you can assign units to stocks or leave them dimensionless. When units are assigned, this must be tracked throughout the entire model construction. </li>
+      <li><term>Flows:</term> Flows into a stock contribute positively to the time-derivative of the corresponding state variable. Likewise, outflows contribute negatively. Insightmaker allows one to choose to only allow positive flow rates for a given flow, or positive and negative rates. The downstream direction of a flow is indicated by a filled arrowhead and upstream is indicated by an unfilled arrowhead (as in the figure below). <em>Note:</em> A flow need not have a stock upstream or downstream; this is necessary when accumulation or depletion is comes from or goes to outside the model.</li>
+
+  <image source="images/Flow_arrow.png" width="50%">
+    <description><p>The arrowhead with an empty hole points upstream. Flow in that direction indicates negative from from the downstream stock.</p></description>
+  </image>
+
+
+      <li><term>Variables:</term> Variables are often used as parameters in the context of ODEs. Insightmaker can attach sliders to them so that we can modify them and see the changes to the dynamics. We will also see that variables are useful for creating objective functions in optimization problems. </li>
+      <li><term>Links:</term> Links are arrows between stocks, flows, and variables that allow the linked objects to be used in the formulas for the object that the to which the link points. </li>
+    </ul> 
+  Briefly, the key formula to manage a stock-flow model is the following:
+  <me>\mbox{Time Derivative of a Stock} = \sum\mbox{Inflows} - \sum\mbox{Outflows}</me> 
+
+  </p>
+
+  <figure>
+    <caption>The arrowhead with an empty hole points upstream. Flow in that direction indicates negative flow from from the downstream stock.</caption>
+    <image source="images/Flow_arrow.png" width="50%">
+    </image>
+  </figure>
+
+</section>
